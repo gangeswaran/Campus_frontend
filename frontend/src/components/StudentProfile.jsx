@@ -63,7 +63,7 @@ const StudentProfile = () => {
           <div className="w-28 h-28 bg-gradient-to-r from-blue-500 to-purple-500 text-white text-4xl font-bold rounded-full flex items-center justify-center shadow-lg overflow-hidden border-4 border-white">
             {student.imagePath ? (
               <img
-                src={`http://localhost:5000/${student.imagePath}`}
+                src={`https://campus-backend-d8st.onrender.com/${student.imagePath}`}
                 alt="Student Avatar"
                 className="w-full h-full object-cover rounded-full"
               />
